@@ -8,21 +8,12 @@ public class CheckPrimeNumber {
         if  (number == 1) {
             prime = false;
         }
-        while (prime) {
-            for (int j = 2; j < number; j++) {
+            for (int j = number - 1; j > 1; j--) {
                 if (number % j == 0) {
-                    k += 1;
+                    prime = false;
+                    break;
                 }
             }
-                if (k < 1) {
-                    prime = true;
-                } else {
-                    prime = false;
-                }
-
-            break;
-
-        }
-            return prime;
-        }
+        return prime;
+    }
 }
