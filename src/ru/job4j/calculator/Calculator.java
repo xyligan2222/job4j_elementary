@@ -1,7 +1,6 @@
 package ru.job4j.calculator;
 /**
  * Package for calculate task.
- *
  * @author Andrey Shirokov (xyligan2222@yandex.ru)
  * @version Idea 2019.3.4
  * @since 01.04.2020
