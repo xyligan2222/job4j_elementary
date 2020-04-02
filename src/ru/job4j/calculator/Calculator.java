@@ -7,6 +7,9 @@ package ru.job4j.calculator;
  */
 
 public class Calculator {
+    /* арифметические операции внутри метода
+    *деление, вычитание, умножение
+    */
 
     public static void main(String[] args) {
         int six = 6, five = 5, four = 4, one = 1, two = 2;
