@@ -9,6 +9,7 @@ public class MatrixCheck1 {
                 break;
             }
         }
+
         return result;
     }
 }
