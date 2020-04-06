@@ -12,6 +12,7 @@ public class MatrixCheckTest {
                 {'X', 'X', 'X'},
                 {' ', ' ', ' '},
                 {' ', ' ', ' '},
+
         };
         boolean result = MatrixCheck.monoHorizontal(input, 0);
         assertThat(result, is(true));
