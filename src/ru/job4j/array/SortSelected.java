@@ -11,6 +11,7 @@ public class SortSelected {
                 data[i] = min;
                 data[index] = temp;
             }
+
         }
         return data;
     }
