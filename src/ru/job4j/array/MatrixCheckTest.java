@@ -17,4 +17,5 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, 0);
         assertThat(result, is(true));
     }
+
 }
