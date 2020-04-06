@@ -7,6 +7,7 @@ public class MatrixCheck {
                 if (board[row][i] != 'X') {
                     result = false;
                     break;
+
                 }
         }
 
