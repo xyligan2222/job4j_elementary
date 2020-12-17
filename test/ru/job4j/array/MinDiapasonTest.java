@@ -1,7 +1,6 @@
-package ru.job4j.ru.job4j.condition;
+package ru.job4j.array;
 
 import org.junit.Test;
-import ru.job4j.array.MinDiapason;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
