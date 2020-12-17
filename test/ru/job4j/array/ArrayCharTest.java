@@ -1,8 +1,6 @@
-package ru.job4j.ru.job4j.condition;
+package ru.job4j.array;
 
 import org.junit.Test;
-import ru.job4j.array.ArrayChar;
-
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -11,7 +9,7 @@ public class ArrayCharTest {
     public void whenStartWithPrefixThenTrue() {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] pref = {'H', 'e'};
-        boolean result = ru.job4j.array.ArrayChar.startsWith(word, pref);
+        boolean result = ArrayChar.startsWith(word, pref);
         assertThat(result, is(true));
     }
 
